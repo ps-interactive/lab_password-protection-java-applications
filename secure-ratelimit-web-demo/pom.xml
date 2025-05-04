@@ -11,10 +11,10 @@
         <relativePath/>
     </parent>
     
-    <groupId>com.secureloginimplementation</groupId>
+    <groupId>com.example</groupId>
     <artifactId>secure-ratelimit-web-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>secure-login-web-demo</name>
+    <name>secure-ratelimit-web-demo</name>
     <description>Demo project for secure login storage via Web with Rate Limiting</description>
 
     <properties>
