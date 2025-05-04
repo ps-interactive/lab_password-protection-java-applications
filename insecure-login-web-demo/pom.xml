@@ -7,7 +7,7 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.2.5</version>
         <relativePath/> </parent>
-    <groupId>com.insecureloginimplementation</groupId>
+    <groupId>com.example</groupId>
     <artifactId>insecure-login-web-demo</artifactId> <version>0.0.1-SNAPSHOT</version>
     <name>insecure-login-web-demo</name> <description>Demo project for insecure login storage via Web</description>
     <properties>
