@@ -105,7 +105,7 @@ class LoginServiceSecure {
             return false;
         }
 
-        System.out.println("Service: Raw password received: '" + password + "'"); // Be cautious logging raw passwords even in demos
+        System.out.println("Service: Raw password received: '" + password + "'"); 
         System.out.println("Service: Preparing to hash password using BCrypt...");
 
         String hashedPassword = passwordEncoder.encode(password);
