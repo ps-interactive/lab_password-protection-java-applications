@@ -1,0 +1,19 @@
+Examine each of the options below and select the correct answer.
+
+{% choice %}
+{% question %}
+In the SecurePasswordDemoApplication.java described in the lab, which Spring Security class is primarily responsible for providing the BCrypt hashing functionality, and what method is used to verify a password during login?
+{% /question %}
+{% option %}
+Class: MessageDigest, Method: isPasswordValid()
+{% /option %}
+{% option answer=true %}
+Class: BCryptPasswordEncoder, Method: matches()
+{% /option %}
+{% option %}
+Class: SaltedPasswordEncoder, Method: compare()
+{% /option %}
+{% option %}
+Class: SecureHashGenerator, Method: checkPassword()
+{% /option %}
+{% /choice %}
