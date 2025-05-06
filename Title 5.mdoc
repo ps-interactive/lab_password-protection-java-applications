@@ -1,0 +1,19 @@
+Examine each of the options below and select the correct answer.
+
+{% choice %}
+{% question %}
+What is the primary security benefit of implementing rate limiting on a login endpoint, as explained in the lab material?
+{% /question %}
+{% option %}
+It encrypts login credentials during transmission.
+{% /option %}
+{% option %}
+It prevents SQL injection attacks by sanitizing user inputs.
+{% /option %}
+{% option answer=true %}
+It significantly slows down automated brute-force and credential stuffing attacks, making them less practical by restricting attempt frequency.
+{% /option %}
+{% option %}
+It ensures that only users from specific geographic locations can attempt to log in.
+{% /option %}
+{% /choice %}
