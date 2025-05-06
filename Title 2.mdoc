@@ -1,0 +1,19 @@
+Examine each of the options below and select the correct answer.
+
+{% choice %}
+{% question %}
+Which of the following is a key benefit of BCrypt's "adaptive cost factor" (work factor), as described in the lab content?
+{% /question %}
+{% option %}
+It ensures that hashes are always the same length, regardless of the password.
+{% /option %}
+{% option answer=true %}
+It allows the hashing process to be intentionally slowed down, making brute-force attacks less feasible and adaptable to future hardware improvements.
+{% /option %}
+{% option %}
+It encrypts the password before hashing for an additional layer of security.
+{% /option %}
+{% option %}
+It eliminates the need for salting by making the hash itself unique.
+{% /option %}
+{% /choice %}
