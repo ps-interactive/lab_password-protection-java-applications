@@ -1,0 +1,19 @@
+Examine each of the options below and select the correct answer.
+
+{% choice %}
+{% question %}
+Hash functions used for passwords are ideally "one-way." What does this "one-way" property primarily imply in the context of password security?
+{% /question %}
+{% option %}
+The hash can be easily computed from the password, and the password can be easily re-computed from the hash.
+{% /option %}
+{% option %}
+The hash computation is slow, but reversing it is fast.
+{% /option %}
+{% option answer=true %}
+It's easy to compute the hash from the password, but computationally infeasible to derive the original password from the hash.
+{% /option %}
+{% option %}
+The same password will always produce different hashes, even with the same hash function.
+{% /option %}
+{% /choice %}
