@@ -1,0 +1,19 @@
+Examine each of the options below and select the correct answer.
+
+{% choice %}
+{% question %}
+In the application.properties file for the rate limiting demo provided in the lab, what do the properties app.rate-limit.capacity=5 and app.rate-limit.refill-unit=MINUTES (along with app.rate-limit.refill-period=1 and app.rate-limit.refill-rate=5) collectively define for the login endpoint?
+{% /question %}
+{% option %}
+The login endpoint will accept a maximum of 5 unique users per minute globally.
+{% /option %}
+{% option answer=true %}
+Each IP address is allowed to make up to 5 login attempts within a 1-minute window.
+{% /option %}
+{% option %}
+The server will cache up to 5 failed login attempts before locking an account.
+{% /option %}
+{% option %}
+The application can handle a burst of 5 concurrent requests, refilling overall capacity every minute.
+{% /option %}
+{% /choice %}
