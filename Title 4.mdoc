@@ -1,0 +1,19 @@
+Examine each of the options below and select the correct answer.
+
+{% choice %}
+{% question %}
+What is the primary reason the MessageDigest.getInstance("MD5") implementation in the insecure login service described in the lab is considered a critical security flaw for password storage?
+{% /question %}
+{% option %}
+MD5 is too slow for modern applications, causing performance issues.
+{% /option %}
+{% option %}
+MD5 hashes are too long, consuming excessive storage space.
+{% /option %}
+{% option answer=true %}
+MD5 is computationally fast and, as implemented in the lab, lacks salting, making it vulnerable to rainbow table and brute-force attacks.
+{% /option %}
+{% option %}
+MD5 requires a complex salt, making it difficult to implement correctly.
+{% /option %}
+{% /choice %}
