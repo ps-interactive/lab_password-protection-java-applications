@@ -1,0 +1,19 @@
+Examine each of the options below and select the correct answer.
+
+{% choice %}
+{% question %}
+According to the lab description of the RateLimitInterceptor.java, if a client exceeds the configured rate limit when attempting to access the /login endpoint, which HTTP status code and response header (among others) would the interceptor typically return to the client?
+{% /question %}
+{% option %}
+Status Code: 401 Unauthorized, Header: X-Rate-Limit-Blocked
+{% /option %}
+{% option %}
+Status Code: 503 Service Unavailable, Header: X-Retry-Later
+{% /option %}
+{% option %}
+Status Code: 403 Forbidden, Header: X-Access-Denied-Reason
+{% /option %}
+{% option answer=true %}
+Status Code: 429 Too Many Requests, Header: X-Rate-Limit-Retry-After-Seconds
+{% /option %}
+{% /choice %}
